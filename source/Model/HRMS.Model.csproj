@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DevExpress.Xpo" Version="19.2.5" />
+        <PackageReference Include="DotNetCore.Validation" Version="10.2.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\CrossCutting\HRMS.CrossCutting.csproj" />
+    </ItemGroup>
+</Project>

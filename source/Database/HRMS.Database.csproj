@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+        <PackageReference Include="DotNetCore.EntityFrameworkCore" Version="10.2.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Domain\HRMS.Domain.csproj" />
+        <ProjectReference Include="..\Model\HRMS.Model.csproj" />
+    </ItemGroup>
+</Project>

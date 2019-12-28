@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <Folder Include="Finance\" />
+      <Folder Include="HRMS\lookup\" />
+      <Folder Include="Location\" />
+      <Folder Include="Marketing\lookup\" />
+      <Folder Include="ReportLog\" />
+      <Folder Include="PersonTemplate\" />
+    </ItemGroup>
+    <ItemGroup>
+      <PackageReference Include="DotNetCore.EntityFrameworkCore" Version="10.2.0" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\Model\HRMS.Model.csproj" />
+    </ItemGroup>
+</Project>

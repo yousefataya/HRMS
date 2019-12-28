@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+    <ItemGroup>
+      <Compile Remove="File\**" />
+      <EmbeddedResource Remove="File\**" />
+      <None Remove="File\**" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Database\HRMS.Database.csproj" />
+        <ProjectReference Include="..\Domain\HRMS.Domain.csproj" />
+        <ProjectReference Include="..\Infra\HRMS.Infra.csproj" />
+    </ItemGroup>
+</Project>
